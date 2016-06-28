@@ -1,0 +1,26 @@
+Name:                gitit-atx-plugin
+Version:             0.0.0
+Cabal-Version:       >= 1.2
+Synopsis:            Gitit plugin to revive ATX-style headers despite markdown+lhs
+Category:            Text
+Description:
+  Gitit plugin: Format ordinals like 21st
+Author:              Conal Elliott
+Maintainer:          conal@conal.net
+License:             BSD3
+License-File:        COPYING
+Stability:           experimental
+build-type:          Simple
+Package-Url:         http://github.com/conal/gitit-atx-plugin
+
+Library
+  hs-Source-Dirs:      src
+  Extensions:
+  Build-Depends:       base<5, gitit
+  Exposed-Modules:     
+                       Network.Gitit.Plugin.ReviveATX
+                       
+  ghc-options:         -Wall
+
+-- Add to Build-Depends when testing:
+--                     , data-default-class, pandoc >= 1.17.1
