@@ -1,3 +1,7 @@
+**Note:** This repository is subsumed by [gitit-to-blog](https://github.com/conal/gitit-to-blog).
+
+* * * * * * * * * * * * * * * * * * * *
+
 This [Haskell](http://haskell.org)-based project is a simple [gitit](http://gitit.net/) plugin that restores ATX-like section headers in the presence of Markdown+LHS.
 
 I upgraded gitit and found that my "##"-style headers don't work when the format is Markdown+LHS.
